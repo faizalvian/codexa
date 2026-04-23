@@ -24,11 +24,11 @@
             fontFamily: { sans: ["Inter", "sans-serif"] },
             colors: {
               premium: {
-                blue: "#020617",
-                accent: "#3B82F6",
-                text: "#F1F5F9",
-                muted: "#94A3B8",
-              },
+  blue: "#ffffff",
+  accent: "#2563EB", // sedikit lebih tajam dari sebelumnya
+  text: "#0F172A",
+  muted: "#64748B",
+},
             },
             animation: { 
                 "fade-in-up": "fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards",
@@ -61,14 +61,12 @@
       }
     </style>
   </head>
-  <body class="bg-[#020617] text-premium-muted font-sans antialiased overflow-x-hidden">
+  <body class="bg-slate-50 text-slate-700 font-sans antialiased overflow-x-hidden">
 
-    <nav class="fixed top-0 w-full z-50 glass border-b border-white/10">
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur border-b border-slate-200">
       <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <img src="codexa.png" 
-     class="h-12 sm:h-14 w-auto 
-     drop-shadow-[0_0_20px_rgba(59,130,246,0.35)] 
-     contrast-125 brightness-110">
+     class="h-12 sm:h-14 w-auto">
         <a href="https://wa.me/6282210764249?text=Halo%20Codexa..." class="bg-premium-accent text-white px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold hover:scale-105 active:scale-95 transition shadow-lg shadow-blue-500/20">
           Tanya Kuota
         </a>
@@ -94,7 +92,7 @@
       </div>
     </header>
 
-    <section class="py-24 bg-slate-900/50">
+    <section class="py-24 bg-white">
       <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-16">
           <h2 class="text-3xl font-bold text-premium-text tracking-tight">Cocok Untuk Siapa?</h2>
@@ -129,7 +127,7 @@
       </div>
     </section>
 
-    <section class="py-32 relative">
+    <section class="py-24 bg-slate-100">
       <div class="max-w-7xl mx-auto px-6">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div>
@@ -183,7 +181,7 @@
       </div>
     </section>
 
-    <section class="py-24 bg-slate-900/30">
+    <section class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-6">
           <div class="text-center mb-20">
             <h2 class="text-4xl font-extrabold text-premium-text tracking-tight">Cara Kami Bekerja</h2>
