@@ -24,7 +24,7 @@
             fontFamily: { sans: ["Inter", "sans-serif"] },
             colors: {
               premium: {
-                blue: "#0F172A",
+                blue: "#1E293B",
                 accent: "#3B82F6",
                 text: "#F1F5F9",
                 muted: "#94A3B8",
@@ -46,7 +46,9 @@
     </script>
     <style>
       html { scroll-behavior: smooth; }
-      .glass { background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+      .glass {
+  background: rgba(30, 41, 59, 0.95);
+}
       /* Custom Gradient Text */
       .text-gradient {
         background: linear-gradient(to right, #F1F5F9, #3B82F6);
@@ -57,10 +59,10 @@
   </head>
   <body class="bg-premium-blue text-premium-muted font-sans antialiased overflow-x-hidden">
 
-    <nav class="fixed top-0 w-full z-50 glass border-b border-white/5">
+    <nav class="fixed top-0 w-full z-50 glass border-b border-white/10">
       <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <img src="codexa.png" 
-     class="h-10 drop-shadow-[0_0_10px_rgba(59,130,246,0.7)]">
+     class="h-14 sm:h-16 w-auto drop-shadow-[0_0_12px_rgba(59,130,246,0.5)]">
         <a href="https://wa.me/6282210764249?text=Halo%20Codexa..." class="bg-premium-accent text-white px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold hover:scale-105 active:scale-95 transition shadow-lg shadow-blue-500/20">
           Tanya Kuota
         </a>
